@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		534619C41D756357000EC58E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534619C31D756357000EC58E /* AppDelegate.swift */; };
+		534619C61D756357000EC58E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534619C51D756357000EC58E /* ViewController.swift */; };
+		534619C91D756357000EC58E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534619C71D756357000EC58E /* Main.storyboard */; };
+		534619CB1D756357000EC58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534619CA1D756357000EC58E /* Assets.xcassets */; };
+		534619CE1D756357000EC58E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534619CC1D756357000EC58E /* LaunchScreen.storyboard */; };
+		534619F21D75781E000EC58E /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534619F11D75781E000EC58E /* MyCell.swift */; };
+		534619F61D7581B9000EC58E /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 534619F51D7581B9000EC58E /* MyCell.xib */; };
+		536D2A6C3CAE6615F9888B51 /* Pods_Sapporo_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E8745679DF7CBC7DBAD0FC /* Pods_Sapporo_ExampleUITests.framework */; };
+		86A12F28E738533B4E25AC4C /* Pods_Sapporo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0961982E851642594D3076E2 /* Pods_Sapporo_Example.framework */; };
+		BE6A5F244076CB1A19851B7D /* Pods_Sapporo_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF78AAF4E7B19040E690091 /* Pods_Sapporo_ExampleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		534619D51D756357000EC58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 534619B81D756357000EC58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 534619BF1D756357000EC58E;
+			remoteInfo = "Sapporo-Example";
+		};
+		534619E01D756357000EC58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 534619B81D756357000EC58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 534619BF1D756357000EC58E;
+			remoteInfo = "Sapporo-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0961982E851642594D3076E2 /* Pods_Sapporo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sapporo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DEEFF3E415932D54D66410 /* Pods-Sapporo-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sapporo-ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sapporo-ExampleUITests/Pods-Sapporo-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D5C23A244C9D692CDB6574B /* Pods-Sapporo-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sapporo-ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sapporo-ExampleTests/Pods-Sapporo-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		3DFEF68ED3B0BB2FA2E243FA /* Pods-Sapporo-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sapporo-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sapporo-Example/Pods-Sapporo-Example.release.xcconfig"; sourceTree = "<group>"; };
+		529EF2E8044579115ACA02CC /* Pods-Sapporo-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sapporo-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sapporo-Example/Pods-Sapporo-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		534619C01D756357000EC58E /* Sapporo-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sapporo-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		534619C31D756357000EC58E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		534619C51D756357000EC58E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		534619C81D756357000EC58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		534619CA1D756357000EC58E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		534619CD1D756357000EC58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		534619CF1D756357000EC58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534619D41D756357000EC58E /* Sapporo-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sapporo-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		534619DF1D756357000EC58E /* Sapporo-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sapporo-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		534619F11D75781E000EC58E /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		534619F51D7581B9000EC58E /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		7FF78AAF4E7B19040E690091 /* Pods_Sapporo_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sapporo_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E8745679DF7CBC7DBAD0FC /* Pods_Sapporo_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sapporo_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24B42DF5D26D475D78B043D /* Pods-Sapporo-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sapporo-ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sapporo-ExampleTests/Pods-Sapporo-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC7AF5011CA0F914D6F97FEF /* Pods-Sapporo-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sapporo-ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sapporo-ExampleUITests/Pods-Sapporo-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		534619BD1D756357000EC58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A12F28E738533B4E25AC4C /* Pods_Sapporo_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534619D11D756357000EC58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6A5F244076CB1A19851B7D /* Pods_Sapporo_ExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534619DC1D756357000EC58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536D2A6C3CAE6615F9888B51 /* Pods_Sapporo_ExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E50B687B0E2F046BE28B1C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0961982E851642594D3076E2 /* Pods_Sapporo_Example.framework */,
+				7FF78AAF4E7B19040E690091 /* Pods_Sapporo_ExampleTests.framework */,
+				82E8745679DF7CBC7DBAD0FC /* Pods_Sapporo_ExampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		534619B71D756357000EC58E = {
+			isa = PBXGroup;
+			children = (
+				534619C21D756357000EC58E /* Sapporo-Example */,
+				534619C11D756357000EC58E /* Products */,
+				D86FFA6729F24D713CAB0722 /* Pods */,
+				3E50B687B0E2F046BE28B1C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		534619C11D756357000EC58E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				534619C01D756357000EC58E /* Sapporo-Example.app */,
+				534619D41D756357000EC58E /* Sapporo-ExampleTests.xctest */,
+				534619DF1D756357000EC58E /* Sapporo-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		534619C21D756357000EC58E /* Sapporo-Example */ = {
+			isa = PBXGroup;
+			children = (
+				534619C31D756357000EC58E /* AppDelegate.swift */,
+				534619C51D756357000EC58E /* ViewController.swift */,
+				534619F11D75781E000EC58E /* MyCell.swift */,
+				534619C71D756357000EC58E /* Main.storyboard */,
+				534619CA1D756357000EC58E /* Assets.xcassets */,
+				534619CC1D756357000EC58E /* LaunchScreen.storyboard */,
+				534619CF1D756357000EC58E /* Info.plist */,
+				534619F51D7581B9000EC58E /* MyCell.xib */,
+			);
+			path = "Sapporo-Example";
+			sourceTree = "<group>";
+		};
+		D86FFA6729F24D713CAB0722 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				529EF2E8044579115ACA02CC /* Pods-Sapporo-Example.debug.xcconfig */,
+				3DFEF68ED3B0BB2FA2E243FA /* Pods-Sapporo-Example.release.xcconfig */,
+				D24B42DF5D26D475D78B043D /* Pods-Sapporo-ExampleTests.debug.xcconfig */,
+				2D5C23A244C9D692CDB6574B /* Pods-Sapporo-ExampleTests.release.xcconfig */,
+				DC7AF5011CA0F914D6F97FEF /* Pods-Sapporo-ExampleUITests.debug.xcconfig */,
+				23DEEFF3E415932D54D66410 /* Pods-Sapporo-ExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		534619BF1D756357000EC58E /* Sapporo-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 534619E81D756357000EC58E /* Build configuration list for PBXNativeTarget "Sapporo-Example" */;
+			buildPhases = (
+				DCAABA2D4868C4C44C84B748 /* [CP] Check Pods Manifest.lock */,
+				534619BC1D756357000EC58E /* Sources */,
+				534619BD1D756357000EC58E /* Frameworks */,
+				534619BE1D756357000EC58E /* Resources */,
+				848754C69A7D38D0C352F248 /* [CP] Embed Pods Frameworks */,
+				9956AC707050C78B680FAD26 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sapporo-Example";
+			productName = "Sapporo-Example";
+			productReference = 534619C01D756357000EC58E /* Sapporo-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		534619D31D756357000EC58E /* Sapporo-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 534619EB1D756357000EC58E /* Build configuration list for PBXNativeTarget "Sapporo-ExampleTests" */;
+			buildPhases = (
+				467201D46947994A06E9EDFB /* [CP] Check Pods Manifest.lock */,
+				534619D01D756357000EC58E /* Sources */,
+				534619D11D756357000EC58E /* Frameworks */,
+				534619D21D756357000EC58E /* Resources */,
+				9A038D311629C692EC07E16C /* [CP] Embed Pods Frameworks */,
+				4201A26E9C34B04E11BFA849 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				534619D61D756357000EC58E /* PBXTargetDependency */,
+			);
+			name = "Sapporo-ExampleTests";
+			productName = "Sapporo-ExampleTests";
+			productReference = 534619D41D756357000EC58E /* Sapporo-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		534619DE1D756357000EC58E /* Sapporo-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 534619EE1D756357000EC58E /* Build configuration list for PBXNativeTarget "Sapporo-ExampleUITests" */;
+			buildPhases = (
+				1751EBDAC660DED53F670EB4 /* [CP] Check Pods Manifest.lock */,
+				534619DB1D756357000EC58E /* Sources */,
+				534619DC1D756357000EC58E /* Frameworks */,
+				534619DD1D756357000EC58E /* Resources */,
+				92893B38B2B073C639B722B8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				534619E11D756357000EC58E /* PBXTargetDependency */,
+			);
+			name = "Sapporo-ExampleUITests";
+			productName = "Sapporo-ExampleUITests";
+			productReference = 534619DF1D756357000EC58E /* Sapporo-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		534619B81D756357000EC58E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hiroaki.egashira;
+				TargetAttributes = {
+					534619BF1D756357000EC58E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					534619D31D756357000EC58E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 534619BF1D756357000EC58E;
+					};
+					534619DE1D756357000EC58E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 534619BF1D756357000EC58E;
+					};
+				};
+			};
+			buildConfigurationList = 534619BB1D756357000EC58E /* Build configuration list for PBXProject "Sapporo-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 534619B71D756357000EC58E;
+			productRefGroup = 534619C11D756357000EC58E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				534619BF1D756357000EC58E /* Sapporo-Example */,
+				534619D31D756357000EC58E /* Sapporo-ExampleTests */,
+				534619DE1D756357000EC58E /* Sapporo-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		534619BE1D756357000EC58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534619CE1D756357000EC58E /* LaunchScreen.storyboard in Resources */,
+				534619F61D7581B9000EC58E /* MyCell.xib in Resources */,
+				534619CB1D756357000EC58E /* Assets.xcassets in Resources */,
+				534619C91D756357000EC58E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534619D21D756357000EC58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534619DD1D756357000EC58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1751EBDAC660DED53F670EB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4201A26E9C34B04E11BFA849 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sapporo-ExampleTests/Pods-Sapporo-ExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		467201D46947994A06E9EDFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		848754C69A7D38D0C352F248 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sapporo-Example/Pods-Sapporo-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92893B38B2B073C639B722B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sapporo-ExampleUITests/Pods-Sapporo-ExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9956AC707050C78B680FAD26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sapporo-Example/Pods-Sapporo-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A038D311629C692EC07E16C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sapporo-ExampleTests/Pods-Sapporo-ExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCAABA2D4868C4C44C84B748 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		534619BC1D756357000EC58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534619F21D75781E000EC58E /* MyCell.swift in Sources */,
+				534619C61D756357000EC58E /* ViewController.swift in Sources */,
+				534619C41D756357000EC58E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534619D01D756357000EC58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534619DB1D756357000EC58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		534619D61D756357000EC58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 534619BF1D756357000EC58E /* Sapporo-Example */;
+			targetProxy = 534619D51D756357000EC58E /* PBXContainerItemProxy */;
+		};
+		534619E11D756357000EC58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 534619BF1D756357000EC58E /* Sapporo-Example */;
+			targetProxy = 534619E01D756357000EC58E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		534619C71D756357000EC58E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				534619C81D756357000EC58E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		534619CC1D756357000EC58E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				534619CD1D756357000EC58E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		534619E61D756357000EC58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		534619E71D756357000EC58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		534619E91D756357000EC58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529EF2E8044579115ACA02CC /* Pods-Sapporo-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sapporo-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Sapporo-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		534619EA1D756357000EC58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DFEF68ED3B0BB2FA2E243FA /* Pods-Sapporo-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sapporo-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Sapporo-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		534619EC1D756357000EC58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D24B42DF5D26D475D78B043D /* Pods-Sapporo-ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sapporo-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Sapporo-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sapporo-Example.app/Sapporo-Example";
+			};
+			name = Debug;
+		};
+		534619ED1D756357000EC58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5C23A244C9D692CDB6574B /* Pods-Sapporo-ExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sapporo-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Sapporo-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sapporo-Example.app/Sapporo-Example";
+			};
+			name = Release;
+		};
+		534619EF1D756357000EC58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7AF5011CA0F914D6F97FEF /* Pods-Sapporo-ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Sapporo-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Sapporo-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sapporo-Example";
+			};
+			name = Debug;
+		};
+		534619F01D756357000EC58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DEEFF3E415932D54D66410 /* Pods-Sapporo-ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Sapporo-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Sapporo-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sapporo-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		534619BB1D756357000EC58E /* Build configuration list for PBXProject "Sapporo-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534619E61D756357000EC58E /* Debug */,
+				534619E71D756357000EC58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		534619E81D756357000EC58E /* Build configuration list for PBXNativeTarget "Sapporo-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534619E91D756357000EC58E /* Debug */,
+				534619EA1D756357000EC58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		534619EB1D756357000EC58E /* Build configuration list for PBXNativeTarget "Sapporo-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534619EC1D756357000EC58E /* Debug */,
+				534619ED1D756357000EC58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		534619EE1D756357000EC58E /* Build configuration list for PBXNativeTarget "Sapporo-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534619EF1D756357000EC58E /* Debug */,
+				534619F01D756357000EC58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 534619B81D756357000EC58E /* Project object */;
+}

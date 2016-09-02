@@ -1,0 +1,6 @@
+framework module Pods_Sapporo_ExampleUITests {
+  umbrella header "Pods-Sapporo-ExampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
